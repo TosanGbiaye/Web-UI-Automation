@@ -1,5 +1,37 @@
 # selenium webdriver is an interface that allows the user to execute commands and test over browsers.
+
 # To install selenium open command prompt or your Pycharm terminal and enter the command : pip install selenium
-# If you intend to use chrome for your web automation you can install the chromedriver-autoinstaller from python library. 
+
+# If you intend to use chrome for your web automation you can install the chromedriver-autoinstaller from python library.
 # Open command prompt or your terminal in your pycharm and enter the command: pip install chromedriver-autoinstaller
 # once installed, you can import the library in your python project like this: import chromedriver_autoinstaller
+
+# How to Auto-setup webdriver: Open your terminal and execute the following command to install the
+# webdriver-manager package: pip install webdriver-manager
+
+# How to Auto-Configure the webdriver chrome, execute the below command:
+# from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service
+# from webdriver_manager.chrome import ChromeDriverManager
+# then leave a space or two and execute the below command:
+# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# driver.get("https://google.com")
+# driver.quit()
+
+# How to Auto-Configure the webdriver for Firefox, execute the below command:
+# from selenium import webdriver
+# from selenium.webdriver.firefox.service import Service
+# from webdriver_manager.firefox import GeckoDriverManager
+# then leave a space or two and execute the below command:
+# driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+# driver.get("https://google.com")
+# driver.quit()
+
+# How to Auto-Configure the webdriver for Edge, execute the below command:
+# from selenium import webdriver
+# from selenium.webdriver.edge.service import Service
+# from webdriver_manager.microsoft import EdgeChromiumDriverManager
+# then leave a space or two and execute the below command:
+# driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()))
+# driver.get("https://google.com")
+# driver.quit()

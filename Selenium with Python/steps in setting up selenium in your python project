@@ -1,0 +1,5 @@
+# selenium webdriver is an interface that allows the user to execute commands and test over browsers.
+# To install selenium open command prompt or your Pycharm terminal and enter the command : pip install selenium
+# If you intend to use chrome for your web automation you can install the chromedriver-autoinstaller from python library. 
+# Open command prompt or your terminal in your pycharm and enter the command: pip install chromedriver-autoinstaller
+# once installed, you can import the library in your python project like this: import chromedriver_autoinstaller

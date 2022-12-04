@@ -1,0 +1,10 @@
+Selenium provides various methods to find an element on a webpage. These methods are known as location strategies. The following methods from the selenium driver class are used to find elements:
+find_element: finds a single element from a webpage or parent element.
+find_elements: finds multiple elements from a webpage or parent element.
+
+To find element by ID, Classname and Name execute the command:
+from selenium.webdriver.common.by import By
+To find by ID: driver.find_element(By.ID, "element_id")
+To find by NAME: driver.find_element(By.NAME, "element_name")
+To find by CLASS NAME: driver.find_element(By.CLASS_NAME, "element_classname")       #class is referred to as class name in python when finding elements
+                      driver.find_elements(By.CLASS_NAME, "element_classname")

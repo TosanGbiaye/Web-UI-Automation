@@ -2,7 +2,7 @@ Selenium provides various methods to find an element on a webpage. These methods
 find_element: finds a single element from a webpage or parent element.
 find_elements: finds multiple elements from a webpage or parent element.
 
-To find element by ID, Classname and Name, Tag name, CSS Selector, XPATH,LINK_TEXT and PARTIAL_LINK_TEXT: execute the command:
+To find element by ID, ClassName and Name, Tag name, CSS Selector, XPATH,LINK_TEXT and PARTIAL_LINK_TEXT: execute the command:
 from selenium.webdriver.common.by import By
 To find by ID: driver.find_element(By.ID, "element_id")
 To find by NAME: driver.find_element(By.NAME, "element_name")

@@ -13,10 +13,6 @@ def print_element_fields(element):
     print("Aria role:", element.aria_role)
     print("ID:", element.id)
     print("Rectangle:", element.rect)
-
-
-
-
 def main():
     driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
     driver.get("https://www.testifyltd.com/contact")

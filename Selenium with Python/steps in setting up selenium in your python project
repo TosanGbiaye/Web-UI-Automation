@@ -9,7 +9,7 @@
 # How to Auto-setup webdriver: Open your terminal and execute the following command to install the
 # webdriver-manager package: pip install webdriver-manager
 
-# How to Auto-Configure the webdriver chrome, execute the below command:
+# How to Auto-Configure the webdriver for chrome, execute the below command:
 # from selenium import webdriver
 # from selenium.webdriver.chrome.service import Service
 # from webdriver_manager.chrome import ChromeDriverManager

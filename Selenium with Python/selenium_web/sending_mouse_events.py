@@ -23,7 +23,7 @@ def main():
     form = driver.find_element(By.TAG_NAME, "form")
     form.find_element(By.TAG_NAME, "button").click()
     form.find_element(By.XPATH, '//*[@id="Partnership"]').click()
-    time.sleep(3)
+    time.sleep(15)
     driver.quit()
 
 

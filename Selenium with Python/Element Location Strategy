@@ -17,6 +17,20 @@ form = driver.find_element(By.XPATH, "//form[1]")
 To find by LINK TEXT: driver.find_element(By.LINK_TEXT, "link text")
 To find by PARTIAL LINK TEXT: driver.find_element(By.PARTIAL_LINK_TEXT, "partial link text")
 
+ACTIONCHAINS
+ActionChains are a way to automate low level interactions such as mouse movement, mouse button action,
+key press and context menu interaction. Unlike web element which provides just two interactions which
+are send_keys and click events, ActionChains provide almost all possible interactions and events you
+can perform on an element and on a webpage. example of events you can perform with ActionChains include:
+Right click event
+element dragging
+copy and paste events
+scrolling
+etc
 
+To perform the above actions using ActionChains the following package needs to be imported:
+from selenium.webdriver import ActionChains
+Then the ActionChains object needs to be initialized with the WebDriver object.
+action = ActionChains(driver)
 
 
